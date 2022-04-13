@@ -76,8 +76,10 @@ ul {
 }
 
 h1 {
+  width: 80%;
   font-size: 48px;
   font-weight: 900;
+  line-height: 1.2;
   color: #f9faf8;
 }
 
@@ -87,6 +89,9 @@ h1 {
   align-items: center;
   justify-content: space-between;
   padding: 0 200px;
+}
+
+.main {
 }
 
 .header-logo {
@@ -107,9 +112,32 @@ h1 {
 
 .hero {
   background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 150px 200px;
 }
 
-.hero p {
+.hero-content {
+  flex: 1;
+}
+
+.hero-content p {
+  width: 85%;
   font-size: 18px;
   color: #e5e7eb;
+  margin-bottom: 12px;
+}
+
+.hero-image {
+  flex: 1;
+  max-width: 500px;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: #3882f6;
+  padding: 6px 32px;
+  border-radius: 8px;
 }
