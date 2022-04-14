@@ -50,7 +50,6 @@ ul {
 }
 
 h1 {
-  /* width: 80%; */
   font-size: 48px;
   font-weight: 700;
   line-height: 1.2;
@@ -84,7 +83,6 @@ h1 {
 .hero {
   background-color: #1f2937;
   display: flex;
-  /* justify-content: space-between; */
   padding: 100px 0;
 }
 
@@ -100,16 +98,13 @@ h1 {
 }
 
 .hero-text p {
-  /* width: 75%; */
   font-size: 18px;
   color: #e5e7eb;
-  /* margin-bottom: 12px; */
+  margin-bottom: 12px;
 }
 
 .hero-image {
   width: 40%;
-  /* flex: 1; */
-  /* max-width: 500px; */
 }
 
 .btn {
