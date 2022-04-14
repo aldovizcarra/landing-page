@@ -50,7 +50,7 @@ ul {
 }
 
 h1 {
-  width: 80%;
+  /* width: 80%; */
   font-size: 48px;
   font-weight: 700;
   line-height: 1.2;
@@ -84,24 +84,32 @@ h1 {
 .hero {
   background-color: #1f2937;
   display: flex;
-  justify-content: space-between;
-  padding: 100px 200px 130px;
+  /* justify-content: space-between; */
+  padding: 100px 0;
 }
 
 .hero-content {
-  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
-.hero-content p {
-  width: 75%;
+.hero-text {
+  width: 30%;
+}
+
+.hero-text p {
+  /* width: 75%; */
   font-size: 18px;
   color: #e5e7eb;
-  margin-bottom: 12px;
+  /* margin-bottom: 12px; */
 }
 
 .hero-image {
-  flex: 1;
-  max-width: 500px;
+  width: 40%;
+  /* flex: 1; */
+  /* max-width: 500px; */
 }
 
 .btn {
@@ -119,6 +127,7 @@ h1 {
 
 .cards-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 50px;
 }
 
@@ -196,6 +205,7 @@ h1 {
 .cta-container {
   background-color: #3882f6;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 50px 120px;
